@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космические путешествия будущего</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0a0f1f;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a237e, #000);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            color: #cfd8dc;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #111827;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #4fc3f7;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #151c33;
+            border-radius: 12px;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(79,195,247,0.4);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #4fc3f7;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4fc3f7;
+            color: black;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        footer {
+            background: #050816;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            color: #90a4ae;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 Космические путешествия будущего</h1>
+    <p>Исследуйте галактики, планеты и новые миры вместе с нами.</p>
+</header>
+
+<nav>
+    <a href="#about">О проекте</a>
+    <a href="#destinations">Маршруты</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>О проекте</h2>
+    <p>
+        Представьте мир, где путешествие на Марс занимает всего несколько дней,
+        а отпуск на орбите Земли становится обычным делом.
+        Мы рассказываем о технологиях и направлениях космического туризма будущего.
+    </p>
+</section>
+
+<section id="destinations" class="container">
+    <h2>Популярные направления</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🌕 Луна</h3>
+            <p>Первые туристические базы и невероятный вид на Землю.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔴 Марс</h3>
+            <p>Красная планета с будущими колониями и научными центрами.</p>
+        </div>
+
+        <div class="card">
+            <h3>🪐 Станция на орбите Сатурна</h3>
+            <p>Потрясающие кольца и космические исследования нового уровня.</p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <a href="#" class="btn">Забронировать полёт</a>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Контакты</h2>
+    <p>Email: spacefuture@example.com</p>
+    <p>Телефон: +7 (000) 123-45-67</p>
+</section>
+
+<footer>
+    <p>© 2026 Космические путешествия будущего. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
